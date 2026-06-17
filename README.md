@@ -56,7 +56,7 @@ endpoint directly in the browser.
 curl http://127.0.0.1:8000/deployments
 
 # failed releases from payment-service only
-curl 'http://127.0.0.1:8000/deployments?service=payment-service&status=failed'
+curl 'http://127.0.0.1:8000/deployments?service=identity-provider&status=failed'
 ```
 
 The response body is a plain JSON array. The total number of matching records
